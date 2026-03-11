@@ -15,6 +15,9 @@ dependencies = [
     "httpx>=0.28.0",
 ]
 
+[project.scripts]
+emby-sync = "emby_searcher.sync:main"
+
 [dependency-groups]
 dev = [
     "pytest>=8.0.0",
